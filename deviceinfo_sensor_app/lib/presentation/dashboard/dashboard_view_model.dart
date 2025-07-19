@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import '../../core/platform_channels/device_info_channel.dart';
 import '../../platform/platform_interface.dart';
 
 class DashboardViewModel extends ChangeNotifier {
@@ -7,10 +6,6 @@ class DashboardViewModel extends ChangeNotifier {
   String battery = '';
   String deviceName = '';
   String osVersion = '';
-
-  // DashboardViewModel() {
-  //   loadDeviceInfo();
-  // }
 
   final IDeviceInfoChannel deviceInfoChannel;
 

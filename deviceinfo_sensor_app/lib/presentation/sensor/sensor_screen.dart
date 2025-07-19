@@ -93,26 +93,5 @@ class SensorScreen extends StatelessWidget {
         ),
       ),
     );
-
-
-    // return Scaffold(
-    //   appBar: AppBar(title: Text('Sensor Info')),
-    //   body: Column(
-    //     mainAxisAlignment: MainAxisAlignment.center,
-    //     children: [
-    //       SwitchListTile(
-    //         title: Text('Toggle Flashlight'),
-    //         value: viewModel.flashlightOn,
-    //         onChanged: (val) => viewModel.toggleFlash(val),
-    //       ),
-    //       ElevatedButton(
-    //         onPressed: viewModel.loadGyroscope,
-    //         child: Text('Read Gyroscope'),
-    //       ),
-    //       if (viewModel.gyroscope.isNotEmpty)
-    //         Text('Gyroscope: ${viewModel.gyroscope}'),
-    //     ],
-    //   ),
-    // );
   }
 }

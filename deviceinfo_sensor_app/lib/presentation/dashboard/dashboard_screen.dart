@@ -93,24 +93,5 @@ class DashboardScreen extends StatelessWidget {
         ),
       ),
     );
-
-
-    // return Scaffold(
-    //   appBar: AppBar(title: Text('Dashboard')),
-    //   body: viewModel.loading
-    //       ? Center(child: Lottie.asset('assets/loading.json'))
-    //       : Column(
-    //     mainAxisAlignment: MainAxisAlignment.center,
-    //     children: [
-    //       Text('Battery: ${viewModel.battery}', key: const Key('batteryText')),
-    //       Text('Device: ${viewModel.deviceName}'),
-    //       Text('OS: ${viewModel.osVersion}'),
-    //       ElevatedButton(
-    //         onPressed: () => Navigator.pushNamed(context, '/sensor'),
-    //         child: Text('Go to Sensors'),
-    //       ),
-    //     ],
-    //   ),
-    // );
   }
 }
